@@ -1,0 +1,101 @@
+.navbar {
+    margin-bottom: 5rem;
+ }
+.fa-skull {
+    margin-right: 10px;
+}
+#title {
+    background-color: #AF0404;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    text-align: left;
+    padding: 5% 10% ;
+}
+h1 {
+    font-family: 'Syne Mono', monospace;
+    color: #0F0E0E;
+    padding-top: 100px;
+    font-size: 5rem;
+    font-weight: 900;
+    position: relative;
+    top: 20%;
+}
+img {
+    position: relative;
+    left: 11%;
+}
+#description {
+    background-color: #414141;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    padding: 7% 10%;
+    text-align: center;
+}
+#content {
+    background-image: url("texture-2012074_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #252525;
+    font-family: 'Syne Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+    padding: 30% 2% ;
+}
+
+#recommendation {
+    background-color: #FF0000;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    padding: 7% 10%;
+    text-align: center;
+}
+h2 {
+    line-height: 1.5;
+}
+.recommendation {
+    margin: 50px 35px;
+}
+.love {
+    background-color: #5F61FF;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+}
+.love:hover {
+    background-color: #9A208C;
+}
+.self-reflection {
+    background-color: #5F61FF;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.5em;
+}
+.self-reflection:hover {
+    background-color: #0A4D68;
+  }
+.recommendation-icon {
+    padding-right: 10px;
+} 
+#footer {
+    background-color: #252525;
+    color: white;
+    font-family: 'Merriweather', serif;
+    padding: 3% 10% 1%;
+    text-align: center;
+  }
+  @media(max-width:992px) {
+    .title-main {
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+    }
+    img {
+        position: static;
+        margin: 15% auto 10%;
+    }
+    #content {
+        background-size: cover;
+    }
+  }
